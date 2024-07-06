@@ -102,6 +102,7 @@
             ButtonStart.TabIndex = 5;
             ButtonStart.Text = "Start";
             ButtonStart.UseVisualStyleBackColor = true;
+            ButtonStart.Click += ButtonStart_Click;
             // 
             // ButtonStop
             // 
