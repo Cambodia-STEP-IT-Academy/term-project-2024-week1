@@ -54,7 +54,9 @@ namespace PomodoroApp
 
         private void ButtonStop_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Timer Stopped");
+            timer.Stop();
+            ButtonStart.Enabled = true;
+            ButtonStop.Enabled = false;
         }
 
         private void WorkDuration_ValueChanged(object sender, EventArgs e)
