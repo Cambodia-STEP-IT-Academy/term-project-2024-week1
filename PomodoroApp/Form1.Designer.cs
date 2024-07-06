@@ -49,56 +49,62 @@
             // textBox1
             // 
             textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            textBox1.Location = new Point(12, 12);
+            textBox1.Location = new Point(17, 20);
+            textBox1.Margin = new Padding(4, 5, 4, 5);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(586, 33);
+            textBox1.Size = new Size(835, 52);
             textBox1.TabIndex = 0;
             textBox1.Text = "Baking a Cake";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 58);
+            label1.Location = new Point(17, 97);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(36, 15);
+            label1.Size = new Size(54, 25);
             label1.TabIndex = 1;
             label1.Text = "Time:";
             // 
             // WorkDuration
             // 
-            WorkDuration.Location = new Point(54, 56);
+            WorkDuration.Location = new Point(77, 93);
+            WorkDuration.Margin = new Padding(4, 5, 4, 5);
             WorkDuration.Maximum = new decimal(new int[] { 59, 0, 0, 0 });
             WorkDuration.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             WorkDuration.Name = "WorkDuration";
-            WorkDuration.Size = new Size(42, 23);
+            WorkDuration.Size = new Size(60, 31);
             WorkDuration.TabIndex = 2;
             WorkDuration.Value = new decimal(new int[] { 25, 0, 0, 0 });
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(102, 58);
+            label2.Location = new Point(146, 97);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(50, 15);
+            label2.Size = new Size(75, 25);
             label2.TabIndex = 3;
             label2.Text = "minutes";
             // 
             // WaitingTime
             // 
             WaitingTime.AutoSize = true;
-            WaitingTime.Font = new Font("Florisa Personal Use", 35.9999962F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            WaitingTime.Location = new Point(199, 124);
+            WaitingTime.Font = new Font("Microsoft Sans Serif", 35.9999962F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            WaitingTime.Location = new Point(284, 207);
+            WaitingTime.Margin = new Padding(4, 0, 4, 0);
             WaitingTime.Name = "WaitingTime";
-            WaitingTime.Size = new Size(160, 48);
+            WaitingTime.Size = new Size(215, 82);
             WaitingTime.TabIndex = 4;
             WaitingTime.Text = "25:00";
             // 
             // ButtonStart
             // 
-            ButtonStart.Location = new Point(134, 227);
+            ButtonStart.Location = new Point(191, 378);
+            ButtonStart.Margin = new Padding(4, 5, 4, 5);
             ButtonStart.Name = "ButtonStart";
-            ButtonStart.Size = new Size(129, 29);
+            ButtonStart.Size = new Size(184, 48);
             ButtonStart.TabIndex = 5;
             ButtonStart.Text = "Start";
             ButtonStart.UseVisualStyleBackColor = true;
@@ -106,9 +112,10 @@
             // 
             // ButtonStop
             // 
-            ButtonStop.Location = new Point(269, 227);
+            ButtonStop.Location = new Point(384, 378);
+            ButtonStop.Margin = new Padding(4, 5, 4, 5);
             ButtonStop.Name = "ButtonStop";
-            ButtonStop.Size = new Size(129, 29);
+            ButtonStop.Size = new Size(184, 48);
             ButtonStop.TabIndex = 6;
             ButtonStop.Text = "Stop";
             ButtonStop.UseVisualStyleBackColor = true;
@@ -116,64 +123,70 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(12, 95);
+            label4.Location = new Point(17, 158);
+            label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(70, 15);
+            label4.Size = new Size(108, 25);
             label4.TabIndex = 7;
             label4.Text = "Short break:";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(12, 124);
+            label5.Location = new Point(17, 207);
+            label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(69, 15);
+            label5.Size = new Size(105, 25);
             label5.TabIndex = 7;
             label5.Text = "Long break:";
             // 
             // ShortBreak
             // 
-            ShortBreak.Location = new Point(87, 93);
+            ShortBreak.Location = new Point(124, 155);
+            ShortBreak.Margin = new Padding(4, 5, 4, 5);
             ShortBreak.Maximum = new decimal(new int[] { 10, 0, 0, 0 });
             ShortBreak.Minimum = new decimal(new int[] { 5, 0, 0, 0 });
             ShortBreak.Name = "ShortBreak";
-            ShortBreak.Size = new Size(42, 23);
+            ShortBreak.Size = new Size(60, 31);
             ShortBreak.TabIndex = 2;
             ShortBreak.Value = new decimal(new int[] { 5, 0, 0, 0 });
             // 
             // LongBreak
             // 
-            LongBreak.Location = new Point(87, 122);
+            LongBreak.Location = new Point(124, 203);
+            LongBreak.Margin = new Padding(4, 5, 4, 5);
             LongBreak.Maximum = new decimal(new int[] { 30, 0, 0, 0 });
             LongBreak.Minimum = new decimal(new int[] { 20, 0, 0, 0 });
             LongBreak.Name = "LongBreak";
-            LongBreak.Size = new Size(42, 23);
+            LongBreak.Size = new Size(60, 31);
             LongBreak.TabIndex = 2;
             LongBreak.Value = new decimal(new int[] { 20, 0, 0, 0 });
             // 
             // Lapses
             // 
             Lapses.AutoSize = true;
-            Lapses.Location = new Point(12, 157);
+            Lapses.Location = new Point(17, 262);
+            Lapses.Margin = new Padding(4, 0, 4, 0);
             Lapses.Name = "Lapses";
-            Lapses.Size = new Size(42, 15);
+            Lapses.Size = new Size(65, 25);
             Lapses.TabIndex = 8;
             Lapses.Text = "Lapses";
             // 
             // BreakDuration
             // 
             BreakDuration.AutoSize = true;
-            BreakDuration.Location = new Point(233, 58);
+            BreakDuration.Location = new Point(333, 97);
+            BreakDuration.Margin = new Padding(4, 0, 4, 0);
             BreakDuration.Name = "BreakDuration";
-            BreakDuration.Size = new Size(104, 15);
+            BreakDuration.Size = new Size(159, 25);
             BreakDuration.TabIndex = 9;
             BreakDuration.Text = "Breaking time 4:49";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(610, 268);
+            ClientSize = new Size(871, 447);
             Controls.Add(BreakDuration);
             Controls.Add(Lapses);
             Controls.Add(label5);
@@ -187,6 +200,7 @@
             Controls.Add(WorkDuration);
             Controls.Add(label1);
             Controls.Add(textBox1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)WorkDuration).EndInit();
