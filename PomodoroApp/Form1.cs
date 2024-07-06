@@ -6,5 +6,10 @@ namespace PomodoroApp
         {
             InitializeComponent();
         }
+
+        private void ButtonStart_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Timer Started");
+        }
     }
 }
